@@ -1,0 +1,84 @@
+|------------------------------------------------------------------|
+|			   	   		  		                                   |
+| TODO	:		   	   		   		                               |
+|			   	   		   		                                   |
+| -Kerwin			   	   		                                   |
+|------------------------------------------------------------------|
+
+Layouts:
+    Assignment
+    Authentication
+    Main
+    Maker
+
+Pages:
+    Error404
+    .
+    .
+    .
+
+    Home
+    . Redirect BASED ON user.roles
+    .
+    .
+        Assignment
+        . GET assignment WHERE user=user
+        . 
+        .
+            AssignmentDetails
+            . GET assignment WHERE user=user
+            . 
+            .
+        Feedback
+        . GET assignment WHERE user=user
+        . CRUD
+        .
+            FeedbackView
+            .GET assignment WHERE user=user
+            .
+            .
+        Scheduling
+        . CRUD
+        . GET Route
+        .
+            Route
+            . CRUD
+            .
+            .
+        Profile
+        . GET users
+        .
+        .
+///////////////////////////////////////////////////////////
+    Patrolling Mode
+    . Timer start upon Begin Patrol
+    . Timer end upon Finish Patrol
+    .
+        Report Hub
+        . CRUD
+        . GET assignment WHERE user=user
+        .
+            Patrolling Report
+            . CRUD
+            .
+            .
+        Patrol Summary
+        . GET assignment details & patrolling report 
+        . 
+        .
+
+
+
+
+	
+|------------------------------------------------------------------|
+| Notes:			   	   		                                   |
+|------------------------------------------------------------------|
+
+	If we are able to do CRUD and fetch data from the database - SQL
+	and verify it through Postman
+
+	then we can die
+
+	else we die.
+	

@@ -1,0 +1,35 @@
+{
+
+    "android": {
+
+        "debug": {
+
+            "keystore": "./surveyrams-debug-key.keystore",
+
+            "storePassword": "surveyrams",
+
+            "alias": "surveyrams-debug",
+
+            "password": "surveyrams",
+
+            "keystoreType": "keystore"
+
+        },
+
+        "release": {
+
+            "keystore": "./surveyrams-release-key.keystore",
+
+            "storePassword": "surveyrams",
+
+            "alias": "surveyrams-release",
+
+            "password": "surveyrams",
+
+            "keystoreType": "keystore"
+
+        }
+
+    }
+
+}

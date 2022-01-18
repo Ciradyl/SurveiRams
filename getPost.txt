@@ -1,0 +1,77 @@
+|------------------------------------------------------------------|
+|			   	   		  		                                   |
+| GET POST	:	  	   		   		                               |
+|			   	   		   		                                   |
+| -Kerwin			   	   		                                   |
+|------------------------------------------------------------------|
+
+<template>
+
+// q-table for making table format
+// row name & column = naming convention 
+
+<q-table
+    v-model:pagination="pagination"  
+    :rows = "row name"
+    :columns = "column name"
+/>
+
+
+</template>
+
+<script>
+    // Create a new variable here
+
+    const loading = ref(true) // loading var or const is for when loading buffer triggers 
+    const <row name> = ref([]) // <row name> is a const referring to an empty array as default
+    const axios = require('axios') // to have axios running
+
+    // Pagination used for layout for the model of our q-table
+    const pagination = ref ({
+        sortBy: '',
+        descending: T/F,
+        page: 1,
+        rowsPerPage: #
+    })
+
+    // create a new const for column which contains an array
+    // of a field
+    const columns = [
+        {
+            name: // name is used to show the actual name of the col
+            label: // label is used to classify a field
+            field: // fields are used to define what content is to be stored via DB
+            align: // fixation of the column
+        }, 
+        (
+
+        ), 
+        (
+
+        )
+    ]
+
+    //use axios to GET POST from url
+    // Retriving of Data from DB
+
+    axios.get('url')
+    .then(reponse => {
+        <row name>.value = response.data.<table data> // <table daata> is the data name of that table
+    })
+    // Once we have GOTTEN the data then we can end the buffer or start.
+    .finally(() => {
+        loading.value = T/F
+    }
+    )
+    
+    // this will enable to show all data to the frontend
+    return {
+        columns,
+        loading,
+        <row name>,
+        pagination
+    }
+
+
+
+</script>
