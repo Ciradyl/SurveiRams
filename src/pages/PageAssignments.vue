@@ -88,7 +88,7 @@
                     to="/assignmentdetails" 
                     exact no-caps 
                     class="text-grey-8 fit" 
-                    label="Assignment 1" 
+                    label="Assignment 2" 
                     align="left" 
                     
                     icon-right="check" 
