@@ -1,6 +1,6 @@
-# Quasar App (quasar-surveiramsv0)
+# SurveiRams
 
-A Quasar Framework app
+A Guard Route Verification app
 
 ## Install the dependencies
 ```bash
